@@ -38,5 +38,35 @@ This project is an advanced MERN (MongoDB, Express, React, Node.js) authenticati
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/auth-project.git
-cd auth-project
+git clone https://github.com/TadashiJei/Advanced-MERN-Auth-Project/
+cd Advanced-MERN-Auth-Project
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+### 3. Setup the .env file
+Create a .env file in the root directory and add the following variables:
+```bash
+MONGO_URI=your_mongo_uri
+PORT=5000
+JWT_SECRET=your_secret_key
+NODE_ENV=development
+
+MAILTRAP_TOKEN=your_mailtrap_token
+MAILTRAP_ENDPOINT=https://send.api.mailtrap.io/
+
+CLIENT_URL=http://localhost:5173
+```
+### 4. Run the App Locally
+To build the project:
+```bash
+npm run build
+```
+To start the app:
+```bash
+npm run start
+```
+
+
